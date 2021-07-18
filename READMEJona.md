@@ -15,6 +15,12 @@ Favicon canva à installer
 
 ##Home
 
+### Faire plusieurs thèmes
+- Light
+- Dark
+- Alt
+- Bouton, texte conditionnel au thème choisi
+
 ### Nav
 
 - Home
@@ -23,3 +29,6 @@ Favicon canva à installer
 - CV, Bio
 
 ### Footer
+
+## _vars.scss
+- Définir les couleurs et polices principales
