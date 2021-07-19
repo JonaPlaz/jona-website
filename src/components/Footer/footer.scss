@@ -2,7 +2,13 @@
 .footer {
   background-color: #344a53;
   bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.5rem;
   position: absolute;
-  height: 160px;
+  height: 120px;
   width: 100vw;
+  ul {
+      color: #ADF3FF;
+  }
 }

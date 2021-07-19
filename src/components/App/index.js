@@ -1,18 +1,20 @@
 // == Import npm
-import React from 'react';
+import React from "react";
 
 // == Import
-import './styles.scss';
+import "./styles.scss";
 
 // == Import components
-import Header from '../Header';
-import Main from '../Main';
-import Footer from '../Footer';
+import Subtitle from "../Subtitle";
+import Header from "../Header";
+import Main from "../Main";
+import Footer from "../Footer";
 
 // == Composant
 const App = () => (
   <>
     <Header />
+    <Subtitle />
     <Main />
     <Footer />
   </>

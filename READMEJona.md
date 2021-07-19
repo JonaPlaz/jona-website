@@ -41,6 +41,10 @@ Tips pour codeurs, portfolio et CV
 - ajouter bouton pour copier le code
 
 ## Home
+- faire un lien vers le projet github du site
+- Mini bio
+- tips du jour
+- Projet de la semaine
 
 ### Faire plusieurs thèmes
 - Light
@@ -55,9 +59,8 @@ Tips pour codeurs, portfolio et CV
 ### Section skills
 - hard et soft skills : ajouter icones
 
-
 ## Footer
 - identité
-- réseaux sociaux
-- liens projets
+- réseaux sociaux - ajouter icones
+- liens projets - ajouter icones
 
