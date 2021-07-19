@@ -1,9 +1,9 @@
-#JONATHANPLAZANET.FR
+# JONATHANPLAZANET.FR
 
-##Description générale
+## Description générale
 Tips pour codeurs, portfolio et CV
 
-##Pages
+## Pages
 
 - Home avec barre de recherche
 - Tips pour codeurs (cheatSheets) et mini programmes
@@ -11,16 +11,8 @@ Tips pour codeurs, portfolio et CV
 - CV et bio
 - 404
 
-##Favicon
-Favicon canva à installer
-
-##Home
-
-### Faire plusieurs thèmes
-- Light
-- Dark
-- Alt
-- Bouton, texte conditionnel au thème choisi
+## Favicon
+- Favicon canva à installer
 
 ### Nav
 
@@ -38,12 +30,28 @@ Favicon canva à installer
 
 ## Back
 - Connexion à une API et afficher des choses de façon random sur ma home
+    - citation sur le code ou la réussite
     - tips pour codeur (cheatSheets) en aléatoire !
+    - dynamisation de skills
+- Avant api ou selon besoin on peut créer un dossier data et y mettre des objets avec infos utiles
 
 ## Ne pas oublier les proptypes
 
 ## Snippets
 - ajouter bouton pour copier le code
 
-## Section tips
+## Home
+
+### Faire plusieurs thèmes
+- Light
+- Dark
+- Alt
+- Bouton, texte conditionnel au thème choisi
+
+### Section tips
 - ajouter effet visuel sur chaque élément au passage de la souris
+- ajouter un petit de présentation type : chaque jour, un nouveau code tip
+
+### Section skills
+- hard et soft skills : ajouter icones
+

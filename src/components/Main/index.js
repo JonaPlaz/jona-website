@@ -5,12 +5,14 @@ import React from "react";
 import "./main.scss";
 
 // == import components
+import Skills from './Skills'
 import Tips from './Tips'
 
 // == Composant Header
 const Main = () => (
   <main className="main">
     <Tips />
+    <Skills />
   </main>
 );
 

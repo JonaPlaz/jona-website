@@ -20,12 +20,27 @@ h3 {
   color: #1A8CC5;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  text-align: right;
   text-transform: uppercase;
 
   @media (min-width: 600px) {
     font-size: 2rem;
   }
+}
+
+h4 {
+  color: #1A8CC5;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+
+  @media (min-width: 600px) {
+    font-size: 1.5rem;
+  }
+}
+
+ul {
+  color: #002439;
+  line-height: 1.5rem;
 }
 
 

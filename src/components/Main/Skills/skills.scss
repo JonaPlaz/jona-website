@@ -1,0 +1,20 @@
+// == Style de la section skills
+
+.sectionSkills {
+  border-bottom: 1px solid #1a8cc5;
+  padding: 3rem 2rem;
+
+  .skillsHardSoft {
+    display: flex;
+    justify-content: space-evenly;
+
+    .skillsHard {
+        flex-direction: column;
+      .skillsFrontBack {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+}

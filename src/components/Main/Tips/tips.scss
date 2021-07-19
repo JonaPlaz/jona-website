@@ -1,8 +1,11 @@
 // == Style de la section tips
 .sectionTips {
     border-bottom: 1px solid #1A8CC5;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 2rem;
+
+    h3 {
+        text-align: right;
+    }
 
     .homeCodeSnippet {
         margin: 0 auto;
