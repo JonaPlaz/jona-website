@@ -9,6 +9,7 @@ const Tips = () => (
   <section className="sectionTips">
     <h2>Tips</h2>
     <h3>Lorem Ipsum Code</h3>
+    {/* ajouter un petit paragraphe annocant un tips aléatoire par jour */}
     <div className="codeSnippet homeCodeSnippet">
       <code>
           const Lorem = (ipsum dolor) => (

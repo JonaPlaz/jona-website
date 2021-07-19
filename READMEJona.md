@@ -55,3 +55,9 @@ Tips pour codeurs, portfolio et CV
 ### Section skills
 - hard et soft skills : ajouter icones
 
+
+## Footer
+- identité
+- réseaux sociaux
+- liens projets
+
