@@ -1,13 +1,12 @@
 // == Style du footer
 .footer {
-  background-color: #344a53;
-  bottom: 0;
+  background-color: #344a53; 
   display: flex;
   justify-content: space-evenly;
-  padding-top: 1.5rem;
-  position: absolute;
-  height: 120px;
-  width: 100vw;
+  padding: 1.5rem 0; 
+
+
+
   ul {
       color: #ADF3FF;
   }
