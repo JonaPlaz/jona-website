@@ -40,11 +40,14 @@ Tips pour codeurs, portfolio et CV
 ## Snippets
 - ajouter bouton pour copier le code
 
+
+
 ## Home
 - faire un lien vers le projet github du site
+- Tips du jour
 - Mini bio
-- tips du jour
 - Projet de la semaine
+- Skills
 
 ### Faire plusieurs thèmes
 - Light
@@ -58,6 +61,9 @@ Tips pour codeurs, portfolio et CV
 
 ### Section skills
 - hard et soft skills : ajouter icones
+
+## Page Tips
+- connexion à fichiers data.js ou consommation api pour tout afficher
 
 ## Footer
 - identité
