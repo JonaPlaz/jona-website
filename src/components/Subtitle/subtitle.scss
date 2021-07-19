@@ -1,7 +1,15 @@
+@use 'src/styles/vars';
 .subtitle {
-  color: #00566D;
+  color: vars.$primary-color;
   font-size: 1.2rem;
   margin: 0 auto;
-  padding: 6rem 2rem 3rem;
+  padding-top: 6rem;
   text-align: center;
+  width: 380px;
+
+  &.subtitle:hover {
+    cursor: none;
+    color: vars.$alt-color;
+    transition: 0.5s;
+  }
 }

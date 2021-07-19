@@ -49,6 +49,10 @@ Tips pour codeurs, portfolio et CV
 - Projet de la semaine
 - Skills
 
+- Une fois v1 satisfaisante. TODO amélioration structure css
+    - éviter les doublons
+    - assignation et utilisation de vars
+
 ### Faire plusieurs thèmes
 - Light
 - Dark

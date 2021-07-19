@@ -1,7 +1,7 @@
+@use 'src/styles/vars';
 // == Style du header
 .header {
-    background-color: #344A53;
-    color: #C3F9FF;
+    background-color: vars.$header-bg-color;
     height: 80px;
     margin: 0 auto;
     position: fixed;
@@ -13,10 +13,15 @@
         justify-content: space-between;
 
         .header-title {
-            color: #00C4FF;
+            color: vars.$logo-color;
             font-size: 1.5rem;
             margin-left: 2rem;
             margin-top: 1.7rem;
+
+            &.header-title:hover {
+                color: vars.$light-color;
+                transition: vars.$transition;
+            }
 
             @media (min-width: 600px) {
                 font-size: 2rem;
@@ -24,7 +29,7 @@
         }
 
         .header-list {
-            color: #ADF3FF;
+            color: vars.$light-color;
             display: flex;
             font-size: 1em;
             margin-right: 0;
@@ -45,10 +50,10 @@
         }
 
         .header-button {
-            background-color: #458DA6;
+            background-color: vars.$primary-color;
             border: none;
-            border-radius: 5px;
-            color: #C3F9FF;
+            border-radius: 4px;
+            color: vars.$light-color;
             font-size: 1em;
             margin-right: 2rem;
             margin-top: 1.2rem;

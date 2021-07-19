@@ -1,5 +1,6 @@
+@use 'src/styles/vars';
 // == Style de la section Bio
 .sectionBio {
-    border-bottom: 1px solid #1A8CC5;
+    border-bottom: 1px solid vars.$alt-color;
     padding: 3rem 2rem;
 }
