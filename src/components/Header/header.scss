@@ -17,22 +17,23 @@
             color: vars.$logo-color;
             font-size: 1.5rem;
             margin-left: 2rem;
-            margin-top: 1.7rem;
+            margin-top: 1.9rem;
+
+            @media (min-width: 600px) {
+                font-size: 2rem;
+                margin-top: 1.5rem;
+              }
 
             &.header-title:hover {
                 color: vars.$light-color;
                 transition: vars.$transition;
             }
-
-            @media (min-width: 600px) {
-                font-size: 2rem;
-              }
         }
 
         .header-list {
             color: vars.$light-color;
             display: flex;
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin-right: 0;
 
             @media (min-width: 600px) {
@@ -63,19 +64,19 @@
             font-size: 1em;
             letter-spacing: vars.$letter-spacing;
             margin-right: 2rem;
-            margin-top: 1.2rem;
+            margin-top: 1.3rem;
             padding: 0.8rem;
-            text-transform: uppercase;
-
-            &.header-button:hover {
-                background-color: vars.$light-color;
-                color: vars.$primary-color;
-                transition: vars.$transition-slow;
-            }
+            text-transform: uppercase;         
 
             @media (min-width: 600px) {
                 font-size: 1.1rem;
               }
+
+              &.header-button:hover {
+                background-color: vars.$light-color;
+                color: vars.$primary-color;
+                transition: vars.$transition-slow;
+            }
         }
     }
 }

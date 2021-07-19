@@ -19,7 +19,7 @@ Tips pour codeurs, portfolio et CV
 - Home
 - Portfolio
 - Tips
-- CV, Bio
+- CV
 
 ### Footer
 

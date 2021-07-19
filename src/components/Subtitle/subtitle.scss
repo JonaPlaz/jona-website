@@ -2,14 +2,18 @@
 .subtitle {
   color: vars.$primary-color;
   font-size: 1.2rem;
-  margin: 0 auto;
-  padding-top: 6rem;
+  margin: 0 auto 2rem;
+  padding-top: 9rem;
   text-align: center;
-  width: 380px;
+
+  @media (min-width: 600px) {
+    font-size: 1.4rem;
+    width: 510px;
+  }
 
   &.subtitle:hover {
     color: vars.$alt-color;
     cursor: default;
-    transition: vars.$transition;
+    transition: vars.$transition;    
   }
 }

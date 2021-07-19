@@ -8,9 +8,7 @@ body {
 
 h2 {
   color: vars.$primary-color;
-  display: inline;
   font-size: 2rem;
-  margin-bottom: 1rem;
   text-transform: uppercase;
 
   @media (min-width: 600px) {
@@ -21,7 +19,6 @@ h2 {
 h3 {
   color: vars.$alt-color;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
   text-transform: uppercase;
 
   @media (min-width: 600px) {
