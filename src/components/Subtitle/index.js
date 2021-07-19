@@ -1,12 +1,12 @@
 // == import de React
-import React from 'react';
+import React from "react";
 
 // == import sass associé
-import './subtitle.scss';
+import "./subtitle.scss";
 
 // == Composant Header
 const Subtitle = () => (
-    <h1>Ceci est mon deuxième titre de niveau 1 :)</h1>        
+  <h1 className="subtitle">Développeur Web - REACT.Js - PHP Symfony</h1>
 );
 
 // == export par défaut
