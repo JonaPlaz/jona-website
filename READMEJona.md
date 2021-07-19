@@ -44,3 +44,6 @@ Favicon canva à installer
 
 ## Snippets
 - ajouter bouton pour copier le code
+
+## Section tips
+- ajouter effet visuel sur chaque élément au passage de la souris

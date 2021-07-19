@@ -8,6 +8,7 @@ body {
 h2 {
   color: #002A3F;
   font-size: 2rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 
   @media (min-width: 600px) {
@@ -18,6 +19,7 @@ h2 {
 h3 {
   color: #1A8CC5;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
   text-align: right;
   text-transform: uppercase;
 
@@ -30,8 +32,10 @@ h3 {
 // == Style pour partage de code 
 .codeSnippet {
   background-color: #001D30;
+  border-radius: 3px;
   color: #B9FEFF;
   line-height: 1.3rem;
+  max-width: 1000px;
   padding: 0.8rem;
 
   @media (min-width: 600px) {
