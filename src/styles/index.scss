@@ -2,7 +2,41 @@
 @use 'vars';
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #002A3F;
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  @media (min-width: 600px) {
+    font-size: 3rem;
+  }
+}
+
+h3 {
+  color: #1A8CC5;
+  font-size: 1.5rem;
+  text-align: right;
+  text-transform: uppercase;
+
+  @media (min-width: 600px) {
+    font-size: 2rem;
+  }
+}
+
+
+// == Style pour partage de code 
+.codeSnippet {
+  background-color: #001D30;
+  color: #B9FEFF;
+  line-height: 1.3rem;
+  padding: 0.8rem;
+
+  @media (min-width: 600px) {
+    font-size: 1.1rem;
+  }
 }
 
 /* 

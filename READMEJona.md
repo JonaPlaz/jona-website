@@ -9,6 +9,7 @@ Tips pour codeurs, portfolio et CV
 - Tips pour codeurs (cheatSheets) et mini programmes
 - portfolio
 - CV et bio
+- 404
 
 ##Favicon
 Favicon canva à installer
@@ -32,3 +33,14 @@ Favicon canva à installer
 
 ## _vars.scss
 - Définir les couleurs et polices principales
+## index.scss
+- Définir les éléments généraux
+
+## Back
+- Connexion à une API et afficher des choses de façon random sur ma home
+    - tips pour codeur (cheatSheets) en aléatoire !
+
+## Ne pas oublier les proptypes
+
+## Snippets
+- ajouter bouton pour copier le code

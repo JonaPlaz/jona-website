@@ -2,36 +2,55 @@
 .header {
     background-color: #344A53;
     color: #C3F9FF;
-    font-family: 'Roboto', sans-serif;
-    height: 80px;
+    height: 100px;
+    margin: 0 auto;
 
     .header-nav {
         display: flex;
         justify-content: space-between;
 
         .header-title {
-            font-size: 2rem;
+            color: #00C4FF;
+            font-size: 1.5rem;
             margin-left: 2rem;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
+
+            @media (min-width: 600px) {
+                font-size: 2rem;
+              }
         }
 
         .header-list {
             display: flex;
+            font-size: 1em;
+
+            @media (min-width: 600px) {
+                font-size: 1.1rem;
+              }
             
             .header-link {
-                margin-left: 5rem;
-                margin-top: 2rem;
+                margin-left: 2rem;
+                margin-top: 2.4rem;
+
+                @media (min-width: 600px) {
+                    margin-left: 5rem;
+                  }
             }
         }
 
         .header-button {
             background-color: #458DA6;
-            color: #C3F9FF;
             border: none;
             border-radius: 5px;
+            color: #C3F9FF;
+            font-size: 1em;
             margin-right: 2rem;
-            margin-top: 1.2rem;
+            margin-top: 1.5rem;
             padding: 0.8rem;
+
+            @media (min-width: 600px) {
+                font-size: 1.1rem;
+              }
         }
     }
 }

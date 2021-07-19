@@ -1,14 +1,17 @@
 // == import de React
-import React from 'react';
+import React from "react";
 
 // == import sass associé
-import './main.scss';
+import "./main.scss";
+
+// == import components
+import Tips from './Tips'
 
 // == Composant Header
 const Main = () => (
-    <main>
-        main
-    </main>        
+  <main className="main">
+    <Tips />
+  </main>
 );
 
 // == export par défaut
