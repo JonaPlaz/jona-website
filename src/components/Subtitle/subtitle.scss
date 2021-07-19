@@ -8,8 +8,8 @@
   width: 380px;
 
   &.subtitle:hover {
-    cursor: none;
     color: vars.$alt-color;
-    transition: 0.5s;
+    cursor: default;
+    transition: vars.$transition;
   }
 }

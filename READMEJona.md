@@ -61,7 +61,8 @@ Tips pour codeurs, portfolio et CV
 
 ### Section tips
 - ajouter effet visuel sur chaque élément au passage de la souris
-- ajouter un petit de présentation type : chaque jour, un nouveau code tip
+- ajouter un petit paragraphe de présentation type : chaque jour, un nouveau code tip
+- code : ajouter un copy button
 
 ### Section skills
 - hard et soft skills : ajouter icones
