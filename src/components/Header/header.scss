@@ -75,7 +75,7 @@
               &.header-button:hover {
                 background-color: vars.$light-color;
                 color: vars.$primary-color;
-                transition: vars.$transition-slow;
+                transition: vars.$transition;
             }
         }
     }

@@ -11,16 +11,20 @@ const Tips = () => (
       Un conseil, un petit bout de code, un cheatSheet par jour, pour progresser
       ensemble.
     </p>
-    <div className="tipsTitle">
-      <h2>Tips</h2>
-      <h3>Lorem Ipsum Code</h3>
-    </div>
-    <div className="codeSnippet homeCodeSnippet">
-      <code>
-        const Lorem = (ipsum dolor) => ( sit amet, consectetur adipiscing elit.
-        Cras ultricies turpis et dui blandit, mollis fringilla ligula
-        ullamcorper. Vestibulum magna )
-      </code>
+    <div className="tipsBlocs">
+      <div className="tipsTitle">
+        <h2>Tips</h2>
+        <h3>Code</h3>
+        <h4>Lorem Ipsum Code</h4>
+      </div>
+      <div className="homeCodeSnippet">
+        <code className="codeSnippet">
+          const Lorem = (ipsum dolor) => ( sit amet, consectetur adipiscing
+          elit. Cras ultricies turpis et dui blandit, mollis fringilla ligula
+          ullamcorper. Vestibulum magna )
+        </code>
+        <button className="tipsCopyButton">Copy</button>
+      </div>
     </div>
   </section>
 );
