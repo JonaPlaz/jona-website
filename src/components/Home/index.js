@@ -2,7 +2,7 @@
 import React from "react";
 
 // == import sass associé
-import "./main.scss";
+import "./home.scss";
 
 // == import components
 import Tips from './Tips'
@@ -12,8 +12,8 @@ import Skills from './Skills'
 
 
 // == Composant Header
-const Main = () => (
-  <main className="main">
+const Home = () => (
+  <main className="home">
     <Tips />
     <Bio />
     <Project />
@@ -22,4 +22,4 @@ const Main = () => (
 );
 
 // == export par défaut
-export default Main;
+export default Home;

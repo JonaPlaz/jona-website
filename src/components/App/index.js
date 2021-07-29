@@ -5,17 +5,17 @@ import React from "react";
 import "./styles.scss";
 
 // == Import components
-import Subtitle from "../Subtitle";
-import Header from "../Header";
-import Main from "../Main";
-import Footer from "../Footer";
+import Subtitle from "src/containers/Subtitle";
+import Header from "src/containers/Header";
+import Home from "src/containers/Home";
+import Footer from "src/containers/Footer";
 
 // == Composant
 const App = () => (
   <>
     <Header />
     <Subtitle />
-    <Main />
+    <Home />
     <Footer />
   </>
 );
