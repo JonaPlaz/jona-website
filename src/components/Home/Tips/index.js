@@ -14,7 +14,7 @@ const Tips = () => (
     <div className="tipsBlocs">
       <div className="tipsTitle">
         <h2>Tips</h2>
-        <h3>Code</h3>
+        <h3>Langage</h3>
         <h4>Lorem Ipsum Code</h4>
       </div>
       <div className="homeCodeSnippet">

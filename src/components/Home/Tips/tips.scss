@@ -2,42 +2,41 @@
 // == Style de la section tips
 .sectionTips {
   border-bottom: 1px solid vars.$alt-color;
+  margin: 5rem auto 0;
   padding: 3rem 2rem;
 
   p {
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
 
     @media (min-width: 600px) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+      text-align: center;
     }
   }
 
   .tipsBlocs {
-    display: flex;
-    
+    display: flex;    
 
     .tipsTitle {
       display: flex;
-      flex-direction: column;
-      margin: 2rem 0;
+      flex-direction: column;      
 
       h3 {
-        margin-top: 1.5rem;
-        margin-left: 2rem;
+        padding: 2rem 2rem 1rem;
       }
 
       h4 {
-        margin-top: 1rem;
-        margin-left: 4rem;
+        padding: 1rem 3rem;
       }
     }
 
     .homeCodeSnippet {
+      background-color: vars.$light-color;
+      border-radius: vars.$border-radius;
       display: flex;
-      justify-content: center;
-      margin: 0 auto;
+      padding: 2rem;
 
       .tipsCopyButton {
         align-self: center;
@@ -46,7 +45,7 @@
         border-radius: vars.$border-radius;
         color: vars.$primary-color;
         letter-spacing: vars.$letter-spacing;
-        margin-left: 0.5rem;
+        margin-left: 1.5rem;
         height: 70px;
         width: 70px;
         padding: 0 1rem;
