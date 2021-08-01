@@ -1,15 +1,24 @@
 @use 'src/styles/vars';
-.subtitle {
-  background-color: vars.$light-color;
-  border-radius: vars.$border-radius;
-  color: vars.$primary-color;
-  display: inline-block;
-  padding: 0.7rem;
-  text-align: center;
 
-  &.subtitle:hover {
-    color: vars.$alt-color;
-    cursor: default;
-    transition: vars.$transition;    
+.subtitle {
+  //  background: url(../../assets/pics/Jona_photo_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+  .subtitle-title {
+    align-self: center;
+    color: vars.$primary-color;
+    margin-top: 1rem;
+
+    &.subtitle-title:hover {
+      color: vars.$alt-color;
+      cursor: default;
+      transition: vars.$transition;
+    }
+  }
+  .subtitle-pic {
+    width: 25%;
   }
 }
