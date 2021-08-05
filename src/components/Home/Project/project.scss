@@ -15,10 +15,9 @@
 
   .project-layout {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 2rem;
     .project-description {
-      background-color: vars.$light-color;
       padding: 2rem;
       text-align: justify;
       width: 600px;

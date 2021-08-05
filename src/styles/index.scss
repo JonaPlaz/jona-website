@@ -4,6 +4,7 @@
 body {
   font-family: vars.$font-family;
   letter-spacing: vars.$letter-spacing;
+  overflow-x: hidden;
 }
 
 h2 {

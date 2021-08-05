@@ -14,8 +14,8 @@ import Skills from './Skills'
 // == Composant Header
 const Home = () => (
   <main className="home">
-    <Tips />
     <Bio />
+    <Tips />
     <Project />
     <Skills />
   </main>

@@ -6,7 +6,7 @@ import "./skills.scss";
 
 // == Composant Header
 const Skills = () => (
-  <section className="sectionSkills">
+  <section className="skills">
     <h2>Skills</h2>
     <div className="skillsHardSoft">
       <div className="skillsHard">
@@ -33,7 +33,7 @@ const Skills = () => (
         </div>
       </div>
 
-      <div>
+      <div className="skillsSoft">
         <h3>Soft Skills</h3>
         <ul>
           <li>Opquast</li>

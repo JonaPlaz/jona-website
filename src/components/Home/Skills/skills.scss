@@ -1,6 +1,6 @@
 @use 'src/styles/vars';
 // == Style de la section skills
-.sectionSkills {
+.skills {
   padding: 3rem 2rem;
 
   .skillsHardSoft {
@@ -13,7 +13,15 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 1rem;
       }
+    }
+
+    .skillsSoft {
+      ul {
+        margin-top: 1rem
+      }
+      
     }
   }
 }
