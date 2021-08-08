@@ -1,27 +1,33 @@
 @use 'src/styles/vars';
 // == Style de la section skills
 .skills {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 
   .skillsHardSoft {
     display: flex;
     justify-content: space-evenly;
 
     .skillsHard {
-        flex-direction: column;
+      flex-direction: column;
       .skillsFrontBack {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 1rem;
+
+        .skills-front {
+          margin-top: 0.7rem;
+        }
+        .skills-back {
+          margin-top: 0.7rem;
+        }
       }
     }
 
     .skillsSoft {
-      ul {
-        margin-top: 1rem
+      .skills-soft-list {
+        margin-top: 0.7rem;
       }
-      
     }
   }
 }

@@ -10,7 +10,9 @@
   .subtitle-title {
     align-self: center;
     color: vars.$primary-color;
-    margin-top: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2rem;
 
     &.subtitle-title:hover {
       color: vars.$alt-color;

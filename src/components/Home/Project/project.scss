@@ -2,7 +2,7 @@
 // == Style de la section project
 .project {
   border-bottom: 1px solid vars.$alt-color;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 
   h3 {
     padding: 2rem 2rem 1rem;
@@ -11,17 +11,39 @@
   .project-layout {
     display: flex;
     justify-content: center;
-    .project-description {
-      margin: 1rem 5rem;
-      text-align: justify;
-      width: 600px;
-    }
 
-    .project-capture {
-      // css juste pour le cadre en attendant la capture
-      background-color: black;
-      height: 400px;
-      width: 400px;
+    .project-article-button {
+      display: flex;
+      flex-direction: column;
+      .project-description {
+        padding-top: 2rem;
+        padding-right: 3rem;
+        text-align: justify;
+        width: 600px;
+      }
+      .project-button {
+        background-color: white;
+        border: 1px solid vars.$primary-color;
+        border-radius: vars.$border-radius;
+        color: vars.$primary-color;
+        margin-top: 2rem;
+        padding: 0.8rem 0.8rem;
+        text-transform: uppercase;
+        width: 150px;
+      }
+      .project-button:hover {
+        background-color: vars.$primary-color;
+        border: none;
+        color: vars.$light-color;
+        transition: vars.$transition-quick;
+      }
     }
+  }
+  .project-capture {
+    // css juste pour le cadre en attendant la capture
+    background-color: black;
+    border-radius: vars.$border-radius;
+    height: 400px;
+    width: 400px;
   }
 }

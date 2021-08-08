@@ -14,7 +14,7 @@ const Skills = () => (
         <div className="skillsFrontBack">
           <div>
             <h4>Front</h4>
-            <ul>
+            <ul className="skills-front">
               <li>Html</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -23,7 +23,7 @@ const Skills = () => (
           </div>
           <div>
             <h4>Back</h4>
-            <ul>
+            <ul className="skills-back">
               <li>Php</li>
               <li>Lumen</li>
               <li>Symfony</li>
@@ -35,7 +35,7 @@ const Skills = () => (
 
       <div className="skillsSoft">
         <h3>Soft Skills</h3>
-        <ul>
+        <ul className="skills-soft-list">
           <li>Opquast</li>
           <li>Autonomie</li>
           <li>Détermination</li>
