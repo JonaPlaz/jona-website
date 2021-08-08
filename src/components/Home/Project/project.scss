@@ -4,30 +4,24 @@
   border-bottom: 1px solid vars.$alt-color;
   padding: 3rem 2rem;
 
-  .project-title {
-    display: flex;
-
-    h3 {
-      align-self: center;
-      margin-left: 2rem;
-    }
+  h3 {
+    padding: 2rem 2rem 1rem;
   }
 
   .project-layout {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
     .project-description {
-      padding: 2rem;
+      margin: 1rem 5rem;
       text-align: justify;
       width: 600px;
     }
-  
+
     .project-capture {
       // css juste pour le cadre en attendant la capture
       background-color: black;
-      height: 600px;
-      width: 600px;
+      height: 400px;
+      width: 400px;
     }
   }
 }

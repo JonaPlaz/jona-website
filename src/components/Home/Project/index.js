@@ -7,12 +7,10 @@ import "./project.scss";
 // == Composant Header
 const Project = () => (
   <section className="project">
-    <div className="project-title">
-      <h2>Projet de la Semaine</h2>
-      <h3>Lorem ipsum</h3>
-    </div>
+    <h2>Projet de la Semaine</h2>
+    <h3>Lorem ipsum</h3>
     <div className="project-layout">
-      <p className="project-description">
+      <article className="project-description">
         Descritption. Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Voluptates nesciunt quidem consequuntur dolorem eum? Minus commodi harum
         perferendis sit, architecto labore nisi qui molestias temporibus vitae
@@ -24,7 +22,7 @@ const Project = () => (
         nisi aperiam cupiditate ab ipsa quam aut non explicabo. Neque labore
         fuga reiciendis perspiciatis aspernatur, doloremque nulla eveniet ipsam
         voluptatum? Esse adipisci sapiente cum. Et, magnam ex.
-      </p>
+      </article>
       <div className="project-capture"></div>
     </div>
   </section>
